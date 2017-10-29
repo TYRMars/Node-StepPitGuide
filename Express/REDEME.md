@@ -80,4 +80,8 @@ app.listen(9093,function functionName() {
 })
 ```
 
-## Express
+## Express和mongoDB结合
+
+* mongoDB独立工具函数
+* express使用body-parser支持post参数
+* 使用cookie-parser存储登录信息cookie
