@@ -198,6 +198,7 @@
         ffmpegProc.stderr.setEncoding('utf8');
       }
 
+      // 知识点 child_pro
       ffmpegProc.on('error', function(err) {
         endCB(err);
       });
@@ -256,7 +257,6 @@
       processCB(ffmpegProc, stdoutRing, stderrRing);
     });
   };
-
 ```
 
 
