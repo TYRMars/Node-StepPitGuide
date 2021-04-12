@@ -4,7 +4,7 @@
 
 这个库是帮助更好操作ffmpeg API而生的。我很好奇它里面是如何实现的，因此就尝试去看了一下它的[源码](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg/blob/master/lib/processor.js#L4)。如果你有兴趣可以自己去读一下，对于学习node帮助还是很大的。
 
-```js
+```javascript
   /**
    * Spawn an ffmpeg process
    *
@@ -132,7 +132,7 @@
 
 解读一下
 
-```js
+```javascript
   /**
    * 产生一个ffmpeg进程
    *
@@ -258,6 +258,4 @@
     });
   };
 ```
-
-
 

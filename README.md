@@ -1,2 +1,4 @@
-[![](/assets/Node.png)](https://tyrmars.gitbooks.io/nodejs-steppitguide/content/ "nodejs-steppitguide")
+# 封面
+
+![](.gitbook/assets/Node.png)
 
